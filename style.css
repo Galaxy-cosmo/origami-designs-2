@@ -1,0 +1,30 @@
+
+
+.header{
+    background-color: #5fe22b;
+    display:flex;
+    justify-content: space-between;
+}
+.animals{
+    display:flex;
+    flex-wrap: wrap;
+    margin:40px;
+}
+
+body{
+    background-color: rgb(25, 88, 146);
+}
+
+.item{
+    border-radius: 20px;
+    padding: 30px;
+    margin: 25px;
+    width: 300px;
+    background-color: antiquewhite;
+    align-items: center;
+}
+.item img{
+    border-radius: 50px;
+    border: 2px solid black;
+    align-self: center;
+}
